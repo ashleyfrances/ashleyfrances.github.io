@@ -1,0 +1,17 @@
+To make changes to your site:
+	1. Open Terminal
+	2. In Terminal, type "cd Documents/Github/source" and press enter
+	3. In Terminal, type "bundle exec jekyll serve" and press enter
+	4. Edit any files you need to
+	5. Go to localhost:4000 and check any changes you've made look good
+
+Once you're done and ready to make the changes live:
+	6. In Terminal, type Ctrl-C to stop the localhost
+	7. In Terminal, type "bundle exec jekyll build"
+	8. In Finder, copy everything inside "_site" to the inside of the folder ashleyfrances.github.io"
+	9. In Terminal type:
+		(a) "cd Documents/Github/ashleyfrances.github.io
+		(b) "git add .
+		(c) "git commit -m 'SUMMARY' 
+		(d) "git push"
+	10. After 5-10min, go to ashleyfrances.github.io and enjoy!
